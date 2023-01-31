@@ -6,15 +6,13 @@ const ProjectList = (props) => {
     <div>
       <ul>
         {props.projects.map((item) => (
-          <li key={item.title}>
-            <ProjectPreview title={item.title} />
-            <p>{item.description}</p>
-            <p>{item.repositoryLink}</p>
-            <p>{item.deploymentLink}</p>
-          </li>
+          <ProjectPreview key={item.title} title={item.title} image={item.image} />
         ))}
       </ul>
     </div>
+          
+            
+          
       
   )
 }
