@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  height: 60px;
+  width: auto;
+  background-color: lightgrey;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 5px 0 5px;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: flex-start;
+  ;
+}
+
+/* nav > div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  
+} */
+
+div.right {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
