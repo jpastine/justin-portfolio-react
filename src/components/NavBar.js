@@ -8,35 +8,37 @@ const NavBar = () => {
         Justin Pastine
       </Link>
 
-      <div className="right">
-        <Link to='/home'>
-          Home
-        </Link>
-      </div>
+      <ul>
+        <li>
+          <Link to='/home'>
+            Home
+          </Link>
+        </li>
 
-      <div className="right">
-        <Link to='/about'>
-          About
-        </Link>
-      </div>
+        <li>
+          <Link to='/about'>
+            About
+          </Link>
+        </li>
 
-      <div className="right">
-        <Link to='/contact' >
-          Contact
-        </Link>
-      </div>
+        <li>
+          <Link to='/contact' >
+            Contact
+          </Link>
+        </li>
 
-      <div className="right">
-        <Link to='/projects'>
-          Projects
-        </Link>
-      </div>
+        <li>
+          <Link to='/projects'>
+            Projects
+          </Link>
+        </li>
 
-      <div className="right">
-        <Link to='/resume' >
-          Resume
-        </Link>
-      </div>
+        <li>
+          <Link to='/resume' >
+            Resume
+          </Link>
+        </li>
+      </ul>
       
 
     </nav>

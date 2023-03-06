@@ -1,7 +1,7 @@
 nav {
   display: flex;
   height: 60px;
-  width: auto;
+  width: 100%;
   background-color: lightgrey;
   font-size: 20px;
   font-weight: bold;
@@ -12,15 +12,17 @@ nav {
   ;
 }
 
-/* nav > div {
+ul  {
   display: flex;
-  justify-content: flex-end;
   margin: 10px;
-  
-} */
-
-div.right {
-  display: flex;
-  align-items: flex-end;
-  margin: 10px;
+  flex-direction: row;
+  justify-content:  flex-end;
+  width: 100%;
 }
+
+li {
+  margin: 0 10px;
+  list-style: none;
+}
+  
+
