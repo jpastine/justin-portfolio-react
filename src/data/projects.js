@@ -13,7 +13,15 @@ export const projectsData = [
     image: '/teammanager.png',
     repositoryLink: 'https://github.com/jpastine/team-manager.git',
     deploymentLink: 'https://team-manager.fly.dev/'
-  }
+  },
+
+  {
+    title: 'Exchange-O-Gram',
+    description: 'MERN stack application that allows users to share images with other users. Images can be liked and commented on by other users.',
+    image: './screenshot.PNG',
+    repositoryLink: 'https://github.com/jpastine/exchangeagram-front-end',
+    deploymentLink: 'https://exchangeagram.netlify.app/'
+  },
 ]
 
 

@@ -9,9 +9,9 @@ const ProjectDetails = () => {
     <>
       <h1>{project.title}</h1>
       <p>{project.description}</p>
-      <img src="/screenshot.jpeg" alt="" />
-      <a href="https://github.com/jpastine/blackjack.git">GitHub Link</a>
-      <a href="https://jpblackjack.netlify.app/">Play Here</a>
+      <img src={project.image} alt="" />
+      <a href={project.repositoryLink}>GitHub Link</a>
+      <a href={project.deploymentLink}>Play Here</a>
     
     </>
   )
