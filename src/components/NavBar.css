@@ -9,7 +9,7 @@ nav {
   /* flex-direction: row; */
   align-items: center;
   justify-content: flex-start;
-  ;
+  position: relative;
 }
 
 ul.navbar  {
@@ -28,6 +28,11 @@ ul.navbar > li {
 
 .links {
   text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color: red;
 }
   
 
