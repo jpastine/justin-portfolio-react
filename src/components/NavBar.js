@@ -4,37 +4,37 @@ import './NavBar.css'
 const NavBar = () => {
   return (  
     <nav>
-      <Link to='/about'>
+      <Link to='/about' className="links">
         Justin Pastine
       </Link>
 
-      <ul>
+      <ul className="navbar">
         <li>
-          <Link to='/home'>
+          <Link to='/home' className="links">
             Home
           </Link>
         </li>
 
         <li>
-          <Link to='/about'>
+          <Link to='/about' className="links">
             About
           </Link>
         </li>
 
         <li>
-          <Link to='/contact' >
+          <Link to='/contact' className="links">
             Contact
           </Link>
         </li>
 
         <li>
-          <Link to='/projects'>
+          <Link to='/projects' className="links">
             Projects
           </Link>
         </li>
 
         <li>
-          <Link to='/resume' >
+          <Link to='/resume' className="links">
             Resume
           </Link>
         </li>
