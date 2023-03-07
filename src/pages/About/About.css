@@ -1,0 +1,20 @@
+main.about {
+  padding: 0 20px;
+}
+
+ul.tech {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.tech > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+ul.tech > img {
+  margin-right: 5px;
+}

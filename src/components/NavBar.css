@@ -2,7 +2,7 @@ nav {
   display: flex;
   height: 60px;
   width: 100%;
-  background-color: lightgrey;
+  background-color: #9e9199;
   font-size: 20px;
   font-weight: bold;
   margin: 0 5px 0 5px;
@@ -31,11 +31,15 @@ ul.navbar > li {
 
 .links {
   text-decoration: none;
-  color: green;
+  color: #112432;
 }
 
 .links:hover {
-  color: red;
+  color: #5e7783;
 }
   
+#welcome {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
 

@@ -13,8 +13,6 @@ img.details-pic {
 .prev-link {
   font-size: 30px;
   text-decoration: none;
-  color: yellowgreen;
-  border: 1px solid gray;
-  background-color: black;
+  color: #4d1635;
   background-blend-mode: color;
 }

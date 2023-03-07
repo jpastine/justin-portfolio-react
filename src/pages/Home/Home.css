@@ -1,0 +1,20 @@
+div.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+div.intro > img {
+  border-radius: 50%;
+}
+
+.name {
+  margin-bottom: 2px;
+}
+
+.title {
+  margin-top: 0;
+  color: #112432;
+}

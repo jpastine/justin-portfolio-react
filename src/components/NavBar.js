@@ -4,26 +4,14 @@ import './NavBar.css'
 const NavBar = () => {
   return (  
     <nav>
-      <Link to='/about' className="links">
-        Justin Pastine
+      <Link to='/home' className="links" id="welcome">
+        Welcome!
       </Link>
 
       <ul className="navbar">
         <li>
           <Link to='/home' className="links">
             Home
-          </Link>
-        </li>
-
-        <li>
-          <Link to='/about' className="links">
-            About
-          </Link>
-        </li>
-
-        <li>
-          <Link to='/contact' className="links">
-            Contact
           </Link>
         </li>
 

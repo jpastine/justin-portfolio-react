@@ -7,15 +7,18 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
+  width: auto;
+  /* margin-top: 50px; */
 }
 
 h3 {
-  color: yellowgreen;
+  color: #112432;
   margin-bottom: 2px;
 }
 
 h1 {
-  color: yellowgreen;
+  color: #112432;
   display: flex;
   align-items: center;
   justify-content: center;

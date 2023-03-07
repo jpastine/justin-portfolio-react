@@ -1,0 +1,16 @@
+div.contact {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.contact > a {
+  color: #112432;
+  text-decoration: none;
+}
+
+div.contact >a:hover {
+  color: #d0d1d3
+}
