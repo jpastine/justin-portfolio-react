@@ -1,6 +1,6 @@
 import { projectsData } from "../../data/projects";
 import ProjectList from "../../components/ProjectList";
-
+import './Projects.css'
 
 const Projects = () => {
   const projects = projectsData

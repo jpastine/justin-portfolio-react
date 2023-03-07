@@ -1,4 +1,4 @@
-
+import './ProjectPreview.css'
 import { Link } from "react-router-dom";
 import { hyphenateWords } from "../utilities/hyphenateWords";
 

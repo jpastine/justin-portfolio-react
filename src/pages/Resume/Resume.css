@@ -1,0 +1,19 @@
+p {
+  color: yellowgreen;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+a {
+  color: aliceblue;
+  margin-left: 4px;
+}
+
+object {
+  height: 950px;
+  width: 100%;
+}

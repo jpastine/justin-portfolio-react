@@ -1,0 +1,22 @@
+* {
+  /* border: 1px solid red */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: yellowgreen;
+  margin-bottom: 2px;
+}
+
+h1 {
+  color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

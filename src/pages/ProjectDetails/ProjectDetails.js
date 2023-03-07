@@ -6,14 +6,13 @@ const ProjectDetails = () => {
   const project = findProject(projectDetails)
 
   return (
-    <>
+    <main>
       <h1>{project.title}</h1>
       <p>{project.description}</p>
       <img src={project.image} alt="" />
       <a href={project.repositoryLink}>GitHub Link</a>
       <a href={project.deploymentLink}>Play Here</a>
-    
-    </>
+    </main>
   )
 }
 

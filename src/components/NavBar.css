@@ -18,17 +18,20 @@ ul.navbar  {
   flex-direction: row;
   justify-content:  flex-end;
   width: 100%;
+  height: 60px;
 }
 
 ul.navbar > li {
   margin: 0 10px;
   list-style: none;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .links {
   text-decoration: none;
-  color: white;
+  color: green;
 }
 
 .links:hover {
