@@ -1,7 +1,6 @@
 import { projectsData } from "../../data/projects";
 import ProjectList from "../../components/ProjectList";
 import './Projects.css'
-import Contact from "../Contact/Contact";
 
 const Projects = () => {
   const projects = projectsData
@@ -20,5 +19,5 @@ const Projects = () => {
 
   );
 }
- 
+
 export default Projects;
