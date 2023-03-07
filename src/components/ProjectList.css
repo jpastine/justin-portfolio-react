@@ -9,8 +9,9 @@ ul.list  {
   height: 400px
 }
 
-img {
+img.preview {
   height: 275px;
+  max-width: 350px;
 }
 
 ul.list > div {

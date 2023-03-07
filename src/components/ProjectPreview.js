@@ -20,6 +20,7 @@ const ProjectPreview = (props) => {
 
 
         <img
+          className='preview'
           src={props.image}
           alt={props.title}
         />
