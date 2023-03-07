@@ -20,11 +20,13 @@ function App() {
         <Route path='projects' element={<Projects />} />
         <Route path='projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
-
-      
-      
-
     </>
+
+      
+
+      
+      
+
     
   );
 }

@@ -6,15 +6,18 @@ import Contact from "../Contact/Contact";
 const Projects = () => {
   const projects = projectsData
   return ( 
-    <main>
-      <h1>Projects</h1>
-      <section>
-        <ProjectList 
-          projects={projects}/>
-      </section>
-      <Contact />
+    <>
+      <main className="projects">
+        <h1>Projects</h1>
+        <section>
+          <ProjectList 
+            projects={projects}
+            />
+        </section>
+      </main> 
       
-    </main> 
+    </>
+
   );
 }
  

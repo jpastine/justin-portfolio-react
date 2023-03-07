@@ -13,7 +13,7 @@ const Home = () => {
       <About />
       <Contact />
     </>  
-  );
+);
 }
  
 export default Home;

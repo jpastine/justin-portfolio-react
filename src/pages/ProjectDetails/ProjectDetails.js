@@ -12,7 +12,7 @@ const ProjectDetails = () => {
       <p>{project.description}</p>
       <img src={project.image} alt="" className="details-pic" />
       <a href={project.repositoryLink} className='prev-link'>GitHub Link</a>
-      <a href={project.deploymentLink} className='prev-link'>Play Here</a>
+      <a href={project.deploymentLink} className='prev-link'>Launch Here</a>
     </main>
   )
 }
